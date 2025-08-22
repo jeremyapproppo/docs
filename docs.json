@@ -7,6 +7,10 @@
         "light": "#07C983",
         "dark": "#15803D"
     },
+  "colorMode": {
+  "default": "dark",
+  "disableSwitch": true
+},
     "favicon": "/favicon.svg",
     "navigation": {
         "versions": [
