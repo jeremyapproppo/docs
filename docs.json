@@ -47,6 +47,26 @@
           }
         ]
       },
+            {
+        "tab": "SDK",
+        "groups": [
+          {
+            "group": "Android",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "iOS",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
+      },
       {
         "tab": "API reference",
         "groups": [
