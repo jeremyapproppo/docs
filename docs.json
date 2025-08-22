@@ -27,9 +27,7 @@
                             {
                                 "group": "Migration guides",
                                 "pages": [
-                                    "index",
-                                    "quickstart",
-                                    "development"
+                                    "index"
                                 ]
                             }
                         ]
@@ -47,10 +45,7 @@
                             {
                                 "group": "iOS",
                                 "pages": [
-                                    "api-reference/endpoint/get",
-                                    "api-reference/endpoint/create",
-                                    "api-reference/endpoint/delete",
-                                    "api-reference/endpoint/webhook"
+                                    "api-reference/introduction"
                                 ]
                             }
                         ]
@@ -127,10 +122,7 @@
                             {
                                 "group": "iOS",
                                 "pages": [
-                                    "api-reference/endpoint/get",
-                                    "api-reference/endpoint/create",
-                                    "api-reference/endpoint/delete",
-                                    "api-reference/endpoint/webhook"
+                                    "api-reference/introduction"
                                 ]
                             }
                         ]
@@ -161,7 +153,7 @@
                         "icon": "history",
                         "groups": [
                             {
-                                "group": "SDK Changelog",
+                                "group": "Changelog",
                                 "pages": [
                                     "changelog"
                                 ]
