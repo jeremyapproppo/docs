@@ -12,21 +12,73 @@
     "versions": [
       {
         "version": "1.0.0",
+        
         "groups": [
           {
+            
             "group": "Getting started",
             "pages": ["v1/overview", "v1/quickstart", "v1/development"]
+          },          {
+            "group": "Migration guides",
+            "pages": ["index", "quickstart", "development"]
           }
         ]
       },
       {
         "version": "2.0.0",
+  "tabs": [
+      {
+        "tab": "Guides",
         "groups": [
           {
             "group": "Getting started",
-            "pages": ["v2/overview", "v2/quickstart", "v2/development"]
+            "pages": ["index", "quickstart", "development"]
+          },
+          {
+            "group": "Migration guides",
+            "pages": ["index", "quickstart", "development"]
           }
         ]
+      },
+      {
+        "tab": "SDK",
+        "icon": "code",
+        "groups": [
+          {
+            "group": "Android",
+            "pages": ["api-reference/introduction"]
+          },
+          {
+            "group": "iOS",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API reference",
+        "icon": "rocket",
+        "groups": [
+          {
+            "group": "API documentation",
+            "pages": ["api-reference/introduction"]
+          },
+          {
+            "group": "Endpoint examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
+      }
+    ],
       }
     ],
     "tabs": [
