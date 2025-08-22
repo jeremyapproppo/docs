@@ -11,64 +11,64 @@
   "navigation": {
     "versions": [
       {
-        "version": "1.0.0",
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
+        "version": "3.0.0",
+        "tabs": [
           {
-            "group": "Getting started",
-            "pages": ["index", "quickstart", "development"]
+            "tab": "Guides",
+            "groups": [
+              {
+                "group": "Getting started",
+                "pages": ["index", "quickstart", "development"]
+              },
+              {
+                "group": "Migration guides",
+                "pages": ["index", "quickstart", "development"]
+              }
+            ]
           },
           {
-            "group": "Migration guides",
-            "pages": ["index", "quickstart", "development"]
-          }
-        ]
-      },
-      {
-        "tab": "SDK",
-        "icon": "code",
-        "groups": [
-          {
-            "group": "Android",
-            "pages": ["api-reference/introduction"]
+            "tab": "SDK",
+            "icon": "code",
+            "groups": [
+              {
+                "group": "Android",
+                "pages": ["api-reference/introduction"]
+              },
+              {
+                "group": "iOS",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete",
+                  "api-reference/endpoint/webhook"
+                ]
+              }
+            ]
           },
           {
-            "group": "iOS",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+            "tab": "API reference",
+            "icon": "rocket",
+            "groups": [
+              {
+                "group": "API documentation",
+                "pages": ["api-reference/introduction"]
+              },
+              {
+                "group": "Endpoint examples",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete",
+                  "api-reference/endpoint/webhook"
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
-        "icon": "rocket",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": ["api-reference/introduction"]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ]
-      },
-      {
-        "version": "2.0.0",
-            "tabs": [
+        "version": "2.6.10",
+        "tabs": [
       {
         "tab": "Guides",
         "groups": [
