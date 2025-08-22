@@ -1,163 +1,214 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Sasis Documentation",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "versions": [
-      {
-        "version": "3.0.0",
-        "tabs": [
-          {
-            "tab": "Guides",
-            "groups": [
-              {
-                "group": "Getting started",
-                "pages": ["index", "quickstart", "development"]
-              },
-              {
-                "group": "Migration guides",
-                "pages": ["index", "quickstart", "development"]
-              }
-            ]
-          },
-          {
-            "tab": "SDK",
-            "icon": "code",
-            "groups": [
-              {
-                "group": "Android",
-                "pages": ["api-reference/introduction"]
-              },
-              {
-                "group": "iOS",
-                "pages": [
-                  "api-reference/endpoint/get",
-                  "api-reference/endpoint/create",
-                  "api-reference/endpoint/delete",
-                  "api-reference/endpoint/webhook"
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "Sasis Documentation",
+    "colors": {
+        "primary": "#16A34A",
+        "light": "#07C983",
+        "dark": "#15803D"
+    },
+    "favicon": "/favicon.svg",
+    "navigation": {
+        "versions": [
+            {
+                "version": "3.0.0",
+                "tabs": [
+                    {
+                        "tab": "Guides",
+                        "groups": [
+                            {
+                                "group": "Getting started",
+                                "pages": [
+                                    "index",
+                                    "quickstart",
+                                    "development"
+                                ]
+                            },
+                            {
+                                "group": "Migration guides",
+                                "pages": [
+                                    "index",
+                                    "quickstart",
+                                    "development"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tab": "SDK",
+                        "icon": "code",
+                        "groups": [
+                            {
+                                "group": "Android",
+                                "pages": [
+                                    "api-reference/introduction"
+                                ]
+                            },
+                            {
+                                "group": "iOS",
+                                "pages": [
+                                    "api-reference/endpoint/get",
+                                    "api-reference/endpoint/create",
+                                    "api-reference/endpoint/delete",
+                                    "api-reference/endpoint/webhook"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tab": "API reference",
+                        "icon": "rocket",
+                        "groups": [
+                            {
+                                "group": "API documentation",
+                                "pages": [
+                                    "api-reference/introduction"
+                                ]
+                            },
+                            {
+                                "group": "Endpoint examples",
+                                "pages": [
+                                    "api-reference/endpoint/get",
+                                    "api-reference/endpoint/create",
+                                    "api-reference/endpoint/delete",
+                                    "api-reference/endpoint/webhook"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tab": "Changelog",
+                        "icon": "history",
+                        "groups": [
+                            {
+                                "group": "SDK Changelog",
+                                "pages": [
+                                    "changelog"
+                                ]
+                            }
+                        ]
+                    }
                 ]
-              }
-            ]
-          },
-          {
-            "tab": "API reference",
-            "icon": "rocket",
-            "groups": [
-              {
-                "group": "API documentation",
-                "pages": ["api-reference/introduction"]
-              },
-              {
-                "group": "Endpoint examples",
-                "pages": [
-                  "api-reference/endpoint/get",
-                  "api-reference/endpoint/create",
-                  "api-reference/endpoint/delete",
-                  "api-reference/endpoint/webhook"
+            },
+            {
+                "version": "2.6.10",
+                "tabs": [
+                    {
+                        "tab": "Guides",
+                        "groups": [
+                            {
+                                "group": "Getting started",
+                                "pages": [
+                                    "index",
+                                    "quickstart",
+                                    "development"
+                                ]
+                            },
+                            {
+                                "group": "Migration guides",
+                                "pages": [
+                                    "index",
+                                    "quickstart",
+                                    "development"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tab": "SDK",
+                        "icon": "code",
+                        "groups": [
+                            {
+                                "group": "Android",
+                                "pages": [
+                                    "api-reference/introduction"
+                                ]
+                            },
+                            {
+                                "group": "iOS",
+                                "pages": [
+                                    "api-reference/endpoint/get",
+                                    "api-reference/endpoint/create",
+                                    "api-reference/endpoint/delete",
+                                    "api-reference/endpoint/webhook"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tab": "API reference",
+                        "icon": "rocket",
+                        "groups": [
+                            {
+                                "group": "API documentation",
+                                "pages": [
+                                    "api-reference/introduction"
+                                ]
+                            },
+                            {
+                                "group": "Endpoint examples",
+                                "pages": [
+                                    "api-reference/endpoint/get",
+                                    "api-reference/endpoint/create",
+                                    "api-reference/endpoint/delete",
+                                    "api-reference/endpoint/webhook"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tab": "Changelog",
+                        "icon": "history",
+                        "groups": [
+                            {
+                                "group": "SDK Changelog",
+                                "pages": [
+                                    "changelog"
+                                ]
+                            }
+                        ]
+                    }
                 ]
-              }
+            }
+        ],
+        "global": {
+            "anchors": [
+                {
+                    "anchor": "Sasis",
+                    "href": "https://www.sasis.ch/",
+                    "icon": "book-open-cover"
+                }
             ]
-          }
-        ]
-      },
-      {
-        "version": "2.6.10",
-        "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": ["index", "quickstart", "development"]
-          },
-          {
-            "group": "Migration guides",
-            "pages": ["index", "quickstart", "development"]
-          }
-        ]
-      },
-      {
-        "tab": "SDK",
-        "icon": "code",
-        "groups": [
-          {
-            "group": "Android",
-            "pages": ["api-reference/introduction"]
-          },
-          {
-            "group": "iOS",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "icon": "rocket",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": ["api-reference/introduction"]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Sasis",
-          "href": "https://www.sasis.ch/",
-          "icon": "book-open-cover"
         }
-      ]
+    },
+    "logo": {
+        "light": "/logo/sasis.svg",
+        "dark": "/logo/sasis.svg"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Support",
+                "href": "mailto:hi@mintlify.com"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Dashboard",
+            "href": "https://dashboard.mintlify.com"
+        }
+    },
+    "contextual": {
+        "options": [
+            "copy",
+            "view"
+        ]
+    },
+    "footer": {
+        "socials": {
+            "x": "https://x.com/mintlify",
+            "github": "https://github.com/mintlify",
+            "linkedin": "https://linkedin.com/company/mintlify"
+        }
     }
-  },
-  "logo": {
-    "light": "/logo/sasis.svg",
-    "dark": "/logo/sasis.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": ["copy", "view"]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
 }
