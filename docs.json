@@ -174,8 +174,8 @@
         }
     },
     "logo": {
-        "light": "/logo/sasis.svg",
-        "dark": "/logo/sasis.png"
+        "light": "/logo/sasis.png",
+        "dark": "/logo/sasis.svg"
     },
     "navbar": {
         "links": [
