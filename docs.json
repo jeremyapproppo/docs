@@ -15,6 +15,7 @@
                 "tabs": [
                     {
                         "tab": "Guides",
+                        "icon": "book-open",
                         "groups": [
                             {
                                 "group": "Getting started",
@@ -34,7 +35,7 @@
                     },
                     {
                         "tab": "SDK",
-                        "icon": "code",
+                        "icon": "code-2",
                         "groups": [
                             {
                                 "group": "Android",
@@ -52,7 +53,7 @@
                     },
                     {
                         "tab": "API reference",
-                        "icon": "rocket",
+                        "icon": "server-cog",
                         "groups": [
                             {
                                 "group": "API documentation",
@@ -90,6 +91,7 @@
                 "tabs": [
                     {
                         "tab": "Guides",
+                       "icon": "book-open",
                         "groups": [
                             {
                                 "group": "Getting started",
@@ -111,7 +113,7 @@
                     },
                     {
                         "tab": "SDK",
-                        "icon": "code",
+                       "icon": "code-2",
                         "groups": [
                             {
                                 "group": "Android",
@@ -129,7 +131,7 @@
                     },
                     {
                         "tab": "API reference",
-                        "icon": "rocket",
+                            "icon": "server-cog",
                         "groups": [
                             {
                                 "group": "API documentation",
@@ -150,7 +152,7 @@
                     },
                     {
                         "tab": "Changelog",
-                        "icon": "history",
+                         "icon": "history",
                         "groups": [
                             {
                                 "group": "Changelog",
