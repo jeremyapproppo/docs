@@ -93,8 +93,8 @@
     }
   },
   "logo": {
-    "light": "/logo/sasis.png",
-    "dark": "/logo/sasis.png"
+    "light": "/logo/sasis.svg",
+    "dark": "/logo/sasis.svg"
   },
   "navbar": {
     "links": [
