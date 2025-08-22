@@ -35,25 +35,23 @@
                     },
                     {
                         "tab": "SDK",
-                        "icon": "code-2",
                         "groups": [
                             {
                                 "group": "Android",
                                 "pages": [
-                                    "api-reference/introduction"
+                                    "sdk/v3/android/android"
                                 ]
                             },
                             {
                                 "group": "iOS",
                                 "pages": [
-                                    "api-reference/introduction"
+                                    "sdk/v3/iOS/iOS"
                                 ]
                             }
                         ]
                     },
                     {
-                        "tab": "API reference",
-                        "icon": "server-cog",
+                        "tab": "API",
                         "groups": [
                             {
                                 "group": "API documentation",
@@ -74,7 +72,6 @@
                     },
                     {
                         "tab": "Changelog",
-                        "icon": "history",
                         "groups": [
                             {
                                 "group": "SDK Changelog",
@@ -113,25 +110,23 @@
                     },
                     {
                         "tab": "SDK",
-                       "icon": "code-2",
                         "groups": [
                             {
                                 "group": "Android",
                                 "pages": [
-                                    "api-reference/introduction"
+                                    "sdk/v3/android/android"
                                 ]
                             },
                             {
                                 "group": "iOS",
                                 "pages": [
-                                    "api-reference/introduction"
+                                    "sdk/v3/iOS/iOS"
                                 ]
                             }
                         ]
                     },
                     {
-                        "tab": "API reference",
-                            "icon": "server-cog",
+                        "tab": "API",
                         "groups": [
                             {
                                 "group": "API documentation",
@@ -152,7 +147,6 @@
                     },
                     {
                         "tab": "Changelog",
-                         "icon": "history",
                         "groups": [
                             {
                                 "group": "Changelog",
